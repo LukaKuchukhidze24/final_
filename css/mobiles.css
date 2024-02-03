@@ -1,0 +1,227 @@
+/* 
+
+
+@media (max-width:744px) {
+    header {
+        padding: 20px 10px;
+        gap: 15px; 
+    }
+
+    .ulclul {
+        margin-left: 10px; 
+    }
+
+    .divheader {
+        column-gap: 10px; 
+    }
+
+}
+
+
+@media (max-width: 744px) 
+{}
+    .section1 {
+        height: 400px; 
+
+}
+
+.section2 {
+}
+
+@media (max-width: 744px) {
+    .section2 {
+        padding: 15px; 
+    }
+
+}
+
+.section3 {
+}
+
+
+@media (max-width: 744px) {
+    .section3 {
+        height: 400px; }
+
+}
+
+footer {
+}
+
+@media (max-width: 744px) {
+    footer {
+        padding: 30px 10px; 
+        column-gap: 15px;
+    }
+
+}
+ */
+
+
+ @media (max-width: 480px) {
+    header {
+        padding: 26px 15px; /* Adjust padding for header at 745px and below */
+        gap: 15px; /* Adjust gap for header at 745px and below */
+    }
+
+    .ulclul {
+        margin-left: 15px; /* Adjust margin for ulclul at 745px and below */
+    }
+
+    .divheader {
+        column-gap: 15px; /* Adjust column gap for divheader at 745px and below */
+    }
+
+    .section1 {
+        height: 500px; /* Adjust height for section1 at 745px and below */
+    }
+
+    .section2 {
+        padding: 20px; /* Adjust padding for section2 at 745px and below */
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section3 {
+        height: 1600px; /* Adjust height for section3 at 745px and below */
+    }
+   .search{
+    opacity: 0;
+   }
+.cover2title{
+    opacity: 0;
+
+}
+.div_same{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.main{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+    footer {
+        padding: 40px 15px; /* Adjust padding for footer at 745px and below */
+        column-gap: 15px; /* Adjust column gap for footer at 745px and below */
+    }
+    
+.grid_class {
+
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        height: 2000px;
+    }
+
+.artworks_icon{
+    opacity: 0;
+}
+
+.eight{
+    opacity: 0;
+ 
+}
+.seven{
+    opacity: 0;
+ 
+}
+
+.six{
+    opacity: 0;
+
+}
+
+
+.pages{
+    opacity: 0;
+
+}
+
+.form-box{
+    margin-top: -10px;
+    padding: 250px 0;
+    margin-left: 10px;
+}
+
+.getin {
+border:none;
+background:none;
+box-shadow:none;
+display: flex;
+width: 500px;
+height: 500px;
+padding: 24px 30px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+position: absolute;
+top: 30%;
+left: 25%;
+}
+
+iframe{
+    width: 300px;
+height: 220px;
+flex-shrink: 0;
+}
+
+.map_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1248px;
+    padding: 12px 32px;
+
+}
+
+.map_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.map{
+    width: 50px;
+    height: 100px;
+    margin-left: -250px;
+}
+
+
+.burger-menu{
+    display: block;
+}
+
+.responsive-nav li{
+    display: block;
+}
+  
+.responsive-nav{
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: -200px;
+}
+
+.burger-menu{
+    display: block;
+}
+
+.responsive-nav li{
+    display: block;
+}
+  
+.responsive-nav{
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: -200px;
+}
+
+
+}
+
