@@ -400,64 +400,15 @@ line-height: 24px;
 
 
 
-/* 
-.active {
+
+.act {
     color: #D5906E;
 font-family: Inter;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-} */
-
-/* 
-.ulclul {
-    display: flex;
-    column-gap: 60px;
-    margin-left: 120px;
 }
-
-
-.earthly {
-    color: #FFF;
-font-family: Inter;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-
-.artisry {
-    color: #D5906E;
-font-family: Inter;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.div2 {
-    display: flex;
-}
-
-
-.signin {
-    color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
- margin-right: 30px; 
-}
-
-
-.div3 {
-
-    display: flex;
-} */
-
-
 
 
 /* artworks page */
@@ -695,7 +646,9 @@ textarea{
 
 iframe{
     width: 792px;
-    height: 408px
+    height: 408px;
+    animation: bounce 3s infinite;
+
    
 }
 
@@ -753,18 +706,17 @@ margin-left: 10px;
     
 }
 
-
-
-
 /* burger */
 .responsive-nav{
     display: flex;
     flex-direction: column;
-    background-color: rgb(238, 237, 243);
+    background-color: #B53B1B;
     padding: 40px;
     text-align: center;
     border-radius: 20px;
     display: none;
+    z-index: 20000;
+    position: relative;
 }
 
 .responsive-nav.active{
@@ -776,7 +728,7 @@ margin-left: 10px;
     margin-bottom: 5px;
 }
 .responsive-nav a{
-    color: #0a22bb;
+    color: #fafafa;
 }
  .burger-menu div{
     width: 30px;
