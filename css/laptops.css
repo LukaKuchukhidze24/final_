@@ -49,7 +49,10 @@ padding: 100px 300px;
 .di2_2{
     margin-left: 80px;
 }
-
+.section3 {
+  
+overflow: scroll;
+}
 }
 
 
